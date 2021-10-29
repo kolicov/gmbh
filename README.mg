@@ -1,6 +1,6 @@
 ## Installation steps:
 
-1. Rename .env.disc to .env
+1. Rename .env.disc to .env and src/.env.disc to .env
 
 2. Start docker containers
 bin/start
