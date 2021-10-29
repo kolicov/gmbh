@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    image: pk/php:7.4.25-apache-buster
+    build:
+      context: .
+    environment:
+      - APP_ENV=${APP_ENV}
+      - TZ=${TZ}
